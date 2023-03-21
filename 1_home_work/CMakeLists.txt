@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+project(1_home_work LANGUAGES CXX VERSION 0.0.1)
+find_package(Catch2 REQUIRED)
+add_executable(1_home_work main.cpp)
+target_link_libraries(1_home_work PRIVATE Catch2::Catch2WithMain)
